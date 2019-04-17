@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context="com.example.rodrigo.dashboardux.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtdashboard"
+                android:text="Painel Administrativo"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="33dp"
+                android:id="@+id/txtitem"
+                android:text="12 Itens"
+                android:textSize="14sp"
+                android:textColor="#52baff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:src="@drawable/person"
+                android:layout_width="62dp"
+                android:layout_height="62dp" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="46dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/bookmark"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:textColor="#6f6f6f"
+                        android:text="Calendário"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+            <android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="46dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/date"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:textColor="#6f6f6f"
+                        android:text="Data/Hora"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+            <android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="46dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/bitcoin"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:textColor="#6f6f6f"
+                        android:text="Mineração"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+            <android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="46dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/bug"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:textColor="#6f6f6f"
+                        android:text="Segurança"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+            <android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="46dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/chat"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:textColor="#6f6f6f"
+                        android:text="Mensagens"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </android.support.v7.view.menu.MenuItemWrapperICS.CollapsibleActionViewWrapper>
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
